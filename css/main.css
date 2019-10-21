@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans");
+}
+
+/* line 9, ../../Portfolio/Design_Architecture/scss/main.scss */
+* {
+  font-family: Open Sans, sans-serif;
+}
+
+/* line 13, ../../Portfolio/Design_Architecture/scss/main.scss */
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/* line 18, ../../Portfolio/Design_Architecture/scss/main.scss */
+.header {
+  background-color: #1d2124;
+}
+
+/* line 22, ../../Portfolio/Design_Architecture/scss/main.scss */
+.header__header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 26, ../../Portfolio/Design_Architecture/scss/main.scss */
+.header__header-wrap .header__logo {
+  text-decoration: none;
+  width: 30px;
+  fill: white;
+}
+
+/* line 30, ../../Portfolio/Design_Architecture/scss/main.scss */
+.header__header-wrap .header__logo .header__logo-img {
+  height: 100%;
+  color: white;
+}
+
+/* line 34, ../../Portfolio/Design_Architecture/scss/main.scss */
+.header__header-wrap .header__logo:hover {
+  fill: orange;
+}
+
+/* line 38, ../../Portfolio/Design_Architecture/scss/main.scss */
+.header__header-wrap .header__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: inline-block;
+  color: white;
+  padding: 26px;
+}
+
+/* line 47, ../../Portfolio/Design_Architecture/scss/main.scss */
+.header__header-wrap .header__link:hover {
+  color: orange;
+}
+
+/*# sourceMappingURL=main.css.map */

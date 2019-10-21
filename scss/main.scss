@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans");
+};
+
+$fontFamily: Open Sans, sans-serif;
+$activeColor: orange;
+
+* {
+  font-family: $fontFamily;
+}
+
+.container {
+  width: 1280px ;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #1d2124;
+}
+
+.header__header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .header__logo {
+    text-decoration: none;
+    width: 30px;
+    fill: white;
+    .header__logo-img {
+      height: 100%;
+      color: white;
+    }
+    &:hover {
+      fill: $activeColor;
+    }
+  }
+  .header__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: inline-block;
+    color: white;
+    padding: 26px;
+    &:hover {
+      color: $activeColor;
+    }
+  }
+}
+
+
+

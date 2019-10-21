@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss"
+	],
+	"sourcesContent": [
+		"@font-face {\r\n  font-family: \"Open Sans\";\r\n  src: url(\"../fonts/opensans\");\r\n};\r\n\r\n$fontFamily: Open Sans, sans-serif;\r\n$activeColor: orange;\r\n\r\n* {\r\n  font-family: $fontFamily;\r\n}\r\n\r\n.container {\r\n  width: 1280px ;\r\n  margin: 0 auto;\r\n}\r\n\r\n.header {\r\n  background-color: #1d2124;\r\n}\r\n\r\n.header__header-wrap {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  .header__logo {\r\n    text-decoration: none;\r\n    width: 30px;\r\n    fill: white;\r\n    .header__logo-img {\r\n      height: 100%;\r\n      color: white;\r\n    }\r\n    &:hover {\r\n      fill: $activeColor;\r\n    }\r\n  }\r\n  .header__link {\r\n    text-decoration: none;\r\n    text-transform: uppercase;\r\n    font-size: 15px;\r\n    font-weight: 400;\r\n    letter-spacing: 1px;\r\n    display: inline-block;\r\n    color: white;\r\n    padding: 26px;\r\n    &:hover {\r\n      color: $activeColor;\r\n    }\r\n  }\r\n}\r\n\r\n\r\n\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,UAAU;EACR,WAAW,EAAE,WAAW;EACxB,GAAG,EAAE,wBAAwB;;;;AAM/B,AAAA,CAAC,CAAC;EACA,WAAW,EAJA,IAAI,CAAC,IAAI,EAAE,UAAU;CAKjC;;;AAED,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,MAAO;EACd,MAAM,EAAE,MAAM;CACf;;;AAED,AAAA,OAAO,CAAC;EACN,gBAAgB,EAAE,OAAO;CAC1B;;;AAED,AAAA,oBAAoB,CAAC;EACnB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;CA0B/B;;;AA7BD,AAIE,oBAJkB,CAIlB,aAAa,CAAC;EACZ,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,IAAI;EACX,IAAI,EAAE,KAAK;CAQZ;;;AAfH,AAQI,oBARgB,CAIlB,aAAa,CAIX,iBAAiB,CAAC;EAChB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;CACb;;;AAXL,AAYI,oBAZgB,CAIlB,aAAa,AAQV,MAAM,CAAC;EACN,IAAI,EA5BI,MAAM;CA6Bf;;;AAdL,AAgBE,oBAhBkB,CAgBlB,aAAa,CAAC;EACZ,eAAe,EAAE,IAAI;EACrB,cAAc,EAAE,SAAS;EACzB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,GAAG;EACnB,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;CAId;;;AA5BH,AAyBI,oBAzBgB,CAgBlB,aAAa,AASV,MAAM,CAAC;EACN,KAAK,EAzCG,MAAM;CA0Cf"
+}
