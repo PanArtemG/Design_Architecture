@@ -3,62 +3,155 @@
   src: url("../fonts/opensans");
 }
 
-/* line 9, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 12, ../../Portfolio/Design_Architecture/scss/main.scss */
 * {
   font-family: Open Sans, sans-serif;
+  transition: all 0.5s;
 }
 
-/* line 13, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 17, ../../Portfolio/Design_Architecture/scss/main.scss */
 .container {
   width: 1280px;
   margin: 0 auto;
 }
 
-/* line 18, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 22, ../../Portfolio/Design_Architecture/scss/main.scss */
+.secondarySizeFont {
+  font-size: 18px;
+}
+
+/* line 26, ../../Portfolio/Design_Architecture/scss/main.scss */
 .header {
   background-color: #1d2124;
 }
 
-/* line 22, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 30, ../../Portfolio/Design_Architecture/scss/main.scss */
 .header__header-wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 15px;
 }
 
-/* line 26, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 35, ../../Portfolio/Design_Architecture/scss/main.scss */
 .header__header-wrap .header__logo {
   text-decoration: none;
   width: 30px;
-  fill: white;
+  fill: #ffffff;
 }
 
-/* line 30, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 39, ../../Portfolio/Design_Architecture/scss/main.scss */
 .header__header-wrap .header__logo .header__logo-img {
   height: 100%;
-  color: white;
+  color: #ffffff;
 }
 
-/* line 34, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 43, ../../Portfolio/Design_Architecture/scss/main.scss */
 .header__header-wrap .header__logo:hover {
-  fill: orange;
-}
-
-/* line 38, ../../Portfolio/Design_Architecture/scss/main.scss */
-.header__header-wrap .header__link {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  display: inline-block;
-  color: white;
-  padding: 26px;
+  fill: #14b9d5;
 }
 
 /* line 47, ../../Portfolio/Design_Architecture/scss/main.scss */
+.header__header-wrap .header__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: inline-block;
+  color: #ffffff;
+  padding: 25px;
+}
+
+/* line 56, ../../Portfolio/Design_Architecture/scss/main.scss */
 .header__header-wrap .header__link:hover {
-  color: orange;
+  color: #14b9d5;
+}
+
+/* line 60, ../../Portfolio/Design_Architecture/scss/main.scss */
+.header__header-wrap .header__search-wrap {
+  width: 30px;
+}
+
+/* line 63, ../../Portfolio/Design_Architecture/scss/main.scss */
+.header__header-wrap .header__search-icon {
+  fill: #ffffff;
+}
+
+/* line 65, ../../Portfolio/Design_Architecture/scss/main.scss */
+.header__header-wrap .header__search-icon:hover {
+  cursor: pointer;
+  fill: #14b9d5;
+}
+
+/* line 72, ../../Portfolio/Design_Architecture/scss/main.scss */
+.main-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 390px;
+  background-image: url("../img/wallpapers.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* line 84, ../../Portfolio/Design_Architecture/scss/main.scss */
+.main-block:after {
+  content: '\A';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+/* line 97, ../../Portfolio/Design_Architecture/scss/main.scss */
+.main-block__title {
+  padding: 140px 0 40px;
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+/* line 106, ../../Portfolio/Design_Architecture/scss/main.scss */
+.main-block__buttons-wrap {
+  display: flex;
+  z-index: 2;
+  color: white;
+  font-weight: 400;
+}
+
+/* line 113, ../../Portfolio/Design_Architecture/scss/main.scss */
+.main-block__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 170px;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+/* line 122, ../../Portfolio/Design_Architecture/scss/main.scss */
+.main-block__button:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* line 128, ../../Portfolio/Design_Architecture/scss/main.scss */
+.button-subscribe {
+  background-color: #89ca62;
+  margin-right: 20px;
+}
+
+/* line 133, ../../Portfolio/Design_Architecture/scss/main.scss */
+.button-articles {
+  background-color: #14b9d5;
 }
 
 /*# sourceMappingURL=main.css.map */

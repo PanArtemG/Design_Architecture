@@ -4,15 +4,23 @@
 };
 
 $fontFamily: Open Sans, sans-serif;
-$activeColor: orange;
+$secondarySizeFont: 18px;
+$mainColor: #14b9d5;
+$secondaryColor: #ffffff;
+$iconMainSize: 30px;
 
 * {
   font-family: $fontFamily;
+  transition: all 0.5s;
 }
 
 .container {
   width: 1280px ;
   margin: 0 auto;
+}
+
+.secondarySizeFont {
+  font-size: 18px;
 }
 
 .header {
@@ -23,32 +31,105 @@ $activeColor: orange;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 15px;
   .header__logo {
     text-decoration: none;
-    width: 30px;
-    fill: white;
+    width: $iconMainSize;
+    fill: $secondaryColor;
     .header__logo-img {
       height: 100%;
-      color: white;
+      color: $secondaryColor;
     }
     &:hover {
-      fill: $activeColor;
+      fill: $mainColor;
     }
   }
   .header__link {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 15px;
+    //font-size: 18px;
     font-weight: 400;
     letter-spacing: 1px;
     display: inline-block;
-    color: white;
-    padding: 26px;
+    color: $secondaryColor;
+    padding: 25px;
     &:hover {
-      color: $activeColor;
+      color: $mainColor;
+    }
+  }
+  .header__search-wrap{
+    width: $iconMainSize;
+  }
+  .header__search-icon {
+   fill: $secondaryColor;
+    &:hover {
+      cursor: pointer;
+      fill: $mainColor;
     }
   }
 }
 
+.main-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 390px;
+
+  background-image: url("../img/wallpapers.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+
+  position: relative;
+  &:after {
+    content: '\A';
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.5);
+    opacity: 1;
+  }
+}
 
 
+.main-block__title {
+  padding: 140px 0 40px;
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.main-block__buttons-wrap {
+  display: flex;
+  z-index: 2;
+  color: white;
+  font-weight: 400;
+}
+
+.main-block__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 170px;
+  //font-size: 18px;
+  border-radius: 8px;
+  margin: 0 auto;
+  &:hover {
+    cursor: pointer;
+    font-size: 20px;
+  }
+}
+
+.button-subscribe {
+  background-color: #89ca62;
+  margin-right: 20px;
+}
+
+.button-articles {
+  background-color: $mainColor;
+}
