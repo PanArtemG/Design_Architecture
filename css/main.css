@@ -317,7 +317,7 @@ h1, h2, h3 {
 
 /* line 272, ../../Portfolio/Design_Architecture/scss/main.scss */
 .top-collection:after {
-  content: '\A';
+  content: '';
   background-image: url("../img/slider/bac.jpg");
   background-size: cover;
   position: absolute;
@@ -325,11 +325,95 @@ h1, h2, h3 {
   height: 100%;
   top: 0;
   left: 0;
-  opacity: 0.5;
+  opacity: 0.7;
   z-index: -1;
 }
 
-/* line 287, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 286, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 0;
+}
+
+/* line 293, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news-title {
+  margin-bottom: 50px;
+  padding: 0;
+  text-transform: uppercase;
+  color: #14b9d5;
+}
+
+/* line 300, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-collection {
+  display: grid;
+  margin-bottom: 70px;
+}
+
+/* line 305, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__row {
+  margin-bottom: 40px;
+}
+
+/* line 307, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__row:nth-child(1) {
+  display: grid;
+  grid-template-rows: 260px;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 30px;
+}
+
+/* line 313, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__row:nth-child(2) {
+  display: grid;
+  grid-template-rows: 420px;
+  grid-template-columns: auto auto;
+  grid-gap: 60px;
+}
+
+/* line 319, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__row:nth-child(3) {
+  display: grid;
+  grid-template-rows: 420px;
+  grid-template-columns: auto auto;
+  grid-gap: 60px;
+}
+
+/* line 325, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__row:nth-child(4) {
+  display: grid;
+  grid-template-rows: 260px;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 30px;
+  margin-bottom: 0;
+}
+
+/* line 335, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item {
+  border: 1px solid black;
+  height: 100%;
+}
+
+/* line 338, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item:nth-child(1) {
+  display: grid;
+  grid-template-columns: 60% auto;
+  background: #0b2e13;
+}
+
+/* line 343, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item:nth-child(8) {
+  display: grid;
+  grid-template-columns: 60% auto;
+}
+
+/* line 348, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__img {
+  height: 100%;
+}
+
+/* line 361, ../../Portfolio/Design_Architecture/scss/main.scss */
 .empty {
   height: 200px;
 }
