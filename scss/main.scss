@@ -42,18 +42,6 @@ h1, h2, h3 {
   align-items: center;
   justify-content: space-between;
   padding: 0 15px;
-  .header__logo {
-    text-decoration: none;
-    width: $iconMainSize;
-    fill: $secondaryColor;
-    .header__logo-img {
-      height: 100%;
-      color: $secondaryColor;
-    }
-    &:hover {
-      fill: $mainColor;
-    }
-  }
   .header__link {
     text-decoration: none;
     text-transform: uppercase;
@@ -76,6 +64,10 @@ h1, h2, h3 {
       fill: $mainColor;
     }
   }
+}
+
+.logo {
+  text-decoration: none;
 }
 
 // Title block
@@ -283,6 +275,8 @@ h1, h2, h3 {
   }
 }
 
+// Hot news SECTION
+
 .hot-news {
   display: flex;
   align-items: center;
@@ -332,32 +326,94 @@ h1, h2, h3 {
   }
 }
 
-.hot-news__news-item {
-  border: 1px solid black;
-  height: 100%;
-  &:nth-child(1) {
-    display: grid;
-    grid-template-columns: 60% auto;
-    background: #0b2e13;
-  }
-  &:nth-child(8) {
-    display: grid;
-    grid-template-columns: 60% auto;
-  }
-}
 .hot-news__img {
   height: 100%;
-  //&:nth-child(1) {
-  //background-image: url("../img/hot_news_img/post-1-img.png");
-  //background-size: cover;
-  //}
-  //&:nth-child(2) {
-  //  background-image: url("../img/hot_news_img/post-8-img.png");
-  //  background-size: cover;
-  //}
+  background-size: cover;
 }
 
+.hot-news__wrap-text {
+  text-align: right;
+  background-color: #f9f7f7;
+}
 
-.empty {
-  height: 200px;
+.hot-news__wrap-text-second-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.hot-news__item-title {
+  font-size: $secondarySizeFont;
+  font-weight: bold;
+}
+
+.hot-news__item-text {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.hot-news__news-item-prophecy,
+.hot-news__news-item-spain {
+  display: grid;
+  grid-template-columns: 60% auto;
+  .hot-news__img {
+     background-image: url("../img/hot_news_img/post-1-img.png");
+  }
+  .hot-news__wrap-text {
+    padding: 40px 20px;
+  }
+}
+
+.hot-news__news-item-nebula,
+.hot-news__news-item-prism {
+  display: grid;
+  grid-template-rows: 80% auto;
+  .hot-news__img {
+     background-image: url("../img/hot_news_img/post-2-img.png");
+  }
+}
+
+.hot-news__news-item-middle {
+  display: grid;
+  grid-template-rows: 60% auto;
+  .hot-news__img-tenerife {
+    background-image: url("../img/hot_news_img/post-3-img.png");
+  }
+  .hot-news__img-britain {
+    background-image: url("../img/hot_news_img/post-4-img.png");
+  }
+  .hot-news__img-egypt {
+    background-image: url("../img/hot_news_img/post-5-img.png");
+  }
+  .hot-news__img-maldives {
+    background-image: url("../img/hot_news_img/post-6-img.png");
+  }
+  .hot-news__wrap-text {
+    padding: 20px 25px;
+  }
+}
+
+.hot-news__img-spain {
+    background-image: url("../img/hot_news_img/post-8-img.png");
+}
+
+.hot-news__img-prism {
+    background-image: url("../img/hot_news_img/post-7-img.png");
+}
+
+// Footer
+
+.footer {
+  background-color: #1d2124;
+  .footer__content {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    span {
+      font-size: 13px;
+      color: $secondaryColor;
+    }
+  }
 }

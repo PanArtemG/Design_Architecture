@@ -46,24 +46,6 @@ h1, h2, h3 {
 }
 
 /* line 45, ../../Portfolio/Design_Architecture/scss/main.scss */
-.header__header-wrap .header__logo {
-  text-decoration: none;
-  width: 30px;
-  fill: #ffffff;
-}
-
-/* line 49, ../../Portfolio/Design_Architecture/scss/main.scss */
-.header__header-wrap .header__logo .header__logo-img {
-  height: 100%;
-  color: #ffffff;
-}
-
-/* line 53, ../../Portfolio/Design_Architecture/scss/main.scss */
-.header__header-wrap .header__logo:hover {
-  fill: #14b9d5;
-}
-
-/* line 57, ../../Portfolio/Design_Architecture/scss/main.scss */
 .header__header-wrap .header__link {
   text-decoration: none;
   text-transform: uppercase;
@@ -74,28 +56,33 @@ h1, h2, h3 {
   padding: 25px;
 }
 
-/* line 65, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 53, ../../Portfolio/Design_Architecture/scss/main.scss */
 .header__header-wrap .header__link:hover {
   color: #14b9d5;
 }
 
-/* line 69, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 57, ../../Portfolio/Design_Architecture/scss/main.scss */
 .header__header-wrap .header__search-wrap {
   width: 30px;
 }
 
-/* line 72, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 60, ../../Portfolio/Design_Architecture/scss/main.scss */
 .header__header-wrap .header__search-icon {
   fill: #ffffff;
 }
 
-/* line 74, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 62, ../../Portfolio/Design_Architecture/scss/main.scss */
 .header__header-wrap .header__search-icon:hover {
   cursor: pointer;
   fill: #14b9d5;
 }
 
-/* line 83, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 69, ../../Portfolio/Design_Architecture/scss/main.scss */
+.logo {
+  text-decoration: none;
+}
+
+/* line 75, ../../Portfolio/Design_Architecture/scss/main.scss */
 .main-block {
   display: flex;
   align-items: center;
@@ -108,7 +95,7 @@ h1, h2, h3 {
   position: relative;
 }
 
-/* line 95, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 87, ../../Portfolio/Design_Architecture/scss/main.scss */
 .main-block:after {
   content: '\A';
   position: absolute;
@@ -120,7 +107,7 @@ h1, h2, h3 {
   opacity: 1;
 }
 
-/* line 107, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 99, ../../Portfolio/Design_Architecture/scss/main.scss */
 .main-block__title {
   padding-bottom: 40px;
   font-weight: 400;
@@ -129,7 +116,7 @@ h1, h2, h3 {
   text-transform: uppercase;
 }
 
-/* line 115, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 107, ../../Portfolio/Design_Architecture/scss/main.scss */
 .main-block__buttons-wrap {
   display: flex;
   z-index: 2;
@@ -137,7 +124,7 @@ h1, h2, h3 {
   font-weight: 400;
 }
 
-/* line 122, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 114, ../../Portfolio/Design_Architecture/scss/main.scss */
 .main-block__button {
   display: flex;
   align-items: center;
@@ -148,38 +135,38 @@ h1, h2, h3 {
   margin: 0 auto;
 }
 
-/* line 130, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 122, ../../Portfolio/Design_Architecture/scss/main.scss */
 .main-block__button:hover {
   cursor: pointer;
   font-size: 20px;
 }
 
-/* line 136, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 128, ../../Portfolio/Design_Architecture/scss/main.scss */
 .button-subscribe {
   background-color: #89ca62;
   margin-right: 20px;
 }
 
-/* line 141, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 133, ../../Portfolio/Design_Architecture/scss/main.scss */
 .button-articles {
   background-color: #14b9d5;
 }
 
-/* line 147, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 139, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-post {
   text-align: center;
   background-color: #f2f2f2;
   padding-bottom: 60px;
 }
 
-/* line 153, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 145, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-post__title {
   display: inline-block;
   color: #14b9d5;
   text-transform: uppercase;
 }
 
-/* line 159, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 151, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-post__collection {
   height: 910px;
   padding-bottom: 70px;
@@ -189,54 +176,54 @@ h1, h2, h3 {
   align-content: center;
 }
 
-/* line 168, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 160, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-post__item {
   background-color: #ffffff;
   cursor: pointer;
   font-weight: 700;
 }
 
-/* line 172, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 164, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-post__item:nth-child(1) {
   order: 1;
   margin-bottom: 30px;
 }
 
-/* line 176, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 168, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-post__item:nth-child(2) {
   order: 3;
   margin: 0 30px 30px 30px;
 }
 
-/* line 180, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 172, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-post__item:nth-child(3) {
   order: 5;
   margin-bottom: 30px;
 }
 
-/* line 184, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 176, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-post__item:nth-child(4) {
   order: 2;
 }
 
-/* line 187, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 179, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-post__item:nth-child(5) {
   order: 4;
   margin: 0 30px 0 30px;
 }
 
-/* line 191, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 183, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-post__item:nth-child(6) {
   order: 6;
 }
 
-/* line 196, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 188, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-post__subtitle {
   display: inline-block;
   padding: 20px;
 }
 
-/* line 203, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 195, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-clients {
   display: flex;
   align-items: center;
@@ -248,7 +235,7 @@ h1, h2, h3 {
   position: relative;
 }
 
-/* line 214, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 206, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-clients:after {
   content: '\A';
   position: absolute;
@@ -261,7 +248,7 @@ h1, h2, h3 {
   z-index: 1;
 }
 
-/* line 227, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 219, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-clients__title {
   margin-bottom: 120px;
   padding: 0;
@@ -272,7 +259,7 @@ h1, h2, h3 {
   z-index: 2;
 }
 
-/* line 235, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 227, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-clients__title:after {
   content: "";
   display: block;
@@ -284,7 +271,7 @@ h1, h2, h3 {
   z-index: 2;
 }
 
-/* line 247, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 239, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-clients__list {
   display: flex;
   align-items: center;
@@ -294,17 +281,17 @@ h1, h2, h3 {
   z-index: 2;
 }
 
-/* line 256, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 248, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-clients__item {
   margin-right: 75px;
 }
 
-/* line 258, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 250, ../../Portfolio/Design_Architecture/scss/main.scss */
 .popular-clients__item:nth-last-child {
   margin-right: 0;
 }
 
-/* line 263, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 255, ../../Portfolio/Design_Architecture/scss/main.scss */
 .top-collection {
   display: flex;
   align-items: center;
@@ -315,7 +302,7 @@ h1, h2, h3 {
   position: relative;
 }
 
-/* line 272, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 264, ../../Portfolio/Design_Architecture/scss/main.scss */
 .top-collection:after {
   content: '';
   background-image: url("../img/slider/bac.jpg");
@@ -329,7 +316,7 @@ h1, h2, h3 {
   z-index: -1;
 }
 
-/* line 286, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 280, ../../Portfolio/Design_Architecture/scss/main.scss */
 .hot-news {
   display: flex;
   align-items: center;
@@ -337,7 +324,7 @@ h1, h2, h3 {
   padding: 60px 0;
 }
 
-/* line 293, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 287, ../../Portfolio/Design_Architecture/scss/main.scss */
 .hot-news-title {
   margin-bottom: 50px;
   padding: 0;
@@ -345,18 +332,18 @@ h1, h2, h3 {
   color: #14b9d5;
 }
 
-/* line 300, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 294, ../../Portfolio/Design_Architecture/scss/main.scss */
 .hot-news__news-collection {
   display: grid;
   margin-bottom: 70px;
 }
 
-/* line 305, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 299, ../../Portfolio/Design_Architecture/scss/main.scss */
 .hot-news__row {
   margin-bottom: 40px;
 }
 
-/* line 307, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 301, ../../Portfolio/Design_Architecture/scss/main.scss */
 .hot-news__row:nth-child(1) {
   display: grid;
   grid-template-rows: 260px;
@@ -364,7 +351,7 @@ h1, h2, h3 {
   grid-gap: 30px;
 }
 
-/* line 313, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 307, ../../Portfolio/Design_Architecture/scss/main.scss */
 .hot-news__row:nth-child(2) {
   display: grid;
   grid-template-rows: 420px;
@@ -372,7 +359,7 @@ h1, h2, h3 {
   grid-gap: 60px;
 }
 
-/* line 319, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 313, ../../Portfolio/Design_Architecture/scss/main.scss */
 .hot-news__row:nth-child(3) {
   display: grid;
   grid-template-rows: 420px;
@@ -380,7 +367,7 @@ h1, h2, h3 {
   grid-gap: 60px;
 }
 
-/* line 325, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 319, ../../Portfolio/Design_Architecture/scss/main.scss */
 .hot-news__row:nth-child(4) {
   display: grid;
   grid-template-rows: 260px;
@@ -389,33 +376,128 @@ h1, h2, h3 {
   margin-bottom: 0;
 }
 
-/* line 335, ../../Portfolio/Design_Architecture/scss/main.scss */
-.hot-news__news-item {
-  border: 1px solid black;
-  height: 100%;
-}
-
-/* line 338, ../../Portfolio/Design_Architecture/scss/main.scss */
-.hot-news__news-item:nth-child(1) {
-  display: grid;
-  grid-template-columns: 60% auto;
-  background: #0b2e13;
-}
-
-/* line 343, ../../Portfolio/Design_Architecture/scss/main.scss */
-.hot-news__news-item:nth-child(8) {
-  display: grid;
-  grid-template-columns: 60% auto;
-}
-
-/* line 348, ../../Portfolio/Design_Architecture/scss/main.scss */
+/* line 329, ../../Portfolio/Design_Architecture/scss/main.scss */
 .hot-news__img {
   height: 100%;
+  background-size: cover;
 }
 
-/* line 361, ../../Portfolio/Design_Architecture/scss/main.scss */
-.empty {
-  height: 200px;
+/* line 334, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__wrap-text {
+  text-align: right;
+  background-color: #f9f7f7;
+}
+
+/* line 339, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__wrap-text-second-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+/* line 346, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__item-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 351, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__item-text {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+/* line 356, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item-prophecy,
+.hot-news__news-item-spain {
+  display: grid;
+  grid-template-columns: 60% auto;
+}
+
+/* line 360, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item-prophecy .hot-news__img,
+.hot-news__news-item-spain .hot-news__img {
+  background-image: url("../img/hot_news_img/post-1-img.png");
+}
+
+/* line 363, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item-prophecy .hot-news__wrap-text,
+.hot-news__news-item-spain .hot-news__wrap-text {
+  padding: 40px 20px;
+}
+
+/* line 368, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item-nebula,
+.hot-news__news-item-prism {
+  display: grid;
+  grid-template-rows: 80% auto;
+}
+
+/* line 372, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item-nebula .hot-news__img,
+.hot-news__news-item-prism .hot-news__img {
+  background-image: url("../img/hot_news_img/post-2-img.png");
+}
+
+/* line 377, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item-middle {
+  display: grid;
+  grid-template-rows: 60% auto;
+}
+
+/* line 380, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item-middle .hot-news__img-tenerife {
+  background-image: url("../img/hot_news_img/post-3-img.png");
+}
+
+/* line 383, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item-middle .hot-news__img-britain {
+  background-image: url("../img/hot_news_img/post-4-img.png");
+}
+
+/* line 386, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item-middle .hot-news__img-egypt {
+  background-image: url("../img/hot_news_img/post-5-img.png");
+}
+
+/* line 389, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item-middle .hot-news__img-maldives {
+  background-image: url("../img/hot_news_img/post-6-img.png");
+}
+
+/* line 392, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__news-item-middle .hot-news__wrap-text {
+  padding: 20px 25px;
+}
+
+/* line 397, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__img-spain {
+  background-image: url("../img/hot_news_img/post-8-img.png");
+}
+
+/* line 401, ../../Portfolio/Design_Architecture/scss/main.scss */
+.hot-news__img-prism {
+  background-image: url("../img/hot_news_img/post-7-img.png");
+}
+
+/* line 407, ../../Portfolio/Design_Architecture/scss/main.scss */
+.footer {
+  background-color: #1d2124;
+}
+
+/* line 409, ../../Portfolio/Design_Architecture/scss/main.scss */
+.footer .footer__content {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+/* line 414, ../../Portfolio/Design_Architecture/scss/main.scss */
+.footer .footer__content span {
+  font-size: 13px;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */
